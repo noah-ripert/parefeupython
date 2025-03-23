@@ -2,19 +2,16 @@
 ## Ce projet permet de créer un pare-feu personnalisé sur Windows en utilisant Python. Il permet de surveiller et de bloquer les connexions réseau suspectes, d'envoyer des notifications de sécurité par pop-up ou par email, et d'afficher une interface graphique pour gérer les connexions réseau.
 
 ## Table des matières
-## Objectif du projet
+- Objectif du projet
 
-## Fonctionnalités
+- Fonctionnalités
 
-## Prérequis
+- Prérequis
 
-## Installation
+- Installation
 
-## Utilisation
+- Utilisation
 
-## Améliorations possibles
-
-## Auteurs
 
 ## Objectif du projet
 Le but de ce projet est de créer un pare-feu personnel pour Windows à l'aide de Python, en offrant des fonctionnalités comme :
@@ -29,7 +26,7 @@ Interface graphique (GUI) pour faciliter l'interaction avec l'utilisateur.
 
 Liste noire d'IP pour bloquer automatiquement les connexions suspectes.
 
-Fonctionnalités
+## Fonctionnalités
 Liste des connexions réseau actives
 Affiche les connexions réseau actives avec les informations suivantes :
 
@@ -54,7 +51,7 @@ Utilise Tkinter pour afficher les connexions réseau et permettre à l'utilisate
 Liste noire d'IP
 Vérifie les connexions réseau actives et bloque automatiquement celles provenant d'IP figurant dans une liste noire.
 
-Prérequis
+## Prérequis
 Avant de commencer, assurez-vous d'avoir les éléments suivants installés :
 
 Python 3.x : Télécharge et installe Python depuis python.org.
@@ -77,7 +74,7 @@ Modifier
 pip install psutil plyer
 Note : Si vous utilisez un serveur SMTP pour envoyer des emails, assurez-vous d'utiliser un mot de passe d'application sécurisé pour votre compte email (ex. : pour Gmail, utilisez un mot de passe d'application).
 
-Installation
+## Installation
 Clonez ce dépôt ou téléchargez les fichiers du projet sur votre machine.
 
 Installez les dépendances en exécutant la commande suivante :
@@ -90,7 +87,7 @@ Assurez-vous d'avoir Python 3 installé sur votre machine.
 
 Vérifiez les autorisations d'administrateur pour permettre à Python de manipuler le pare-feu Windows à l'aide de la commande netsh.
 
-Utilisation
+## Utilisation
 Exécution du script
 Ouvrez une console (cmd ou PowerShell) en mode administrateur.
 
