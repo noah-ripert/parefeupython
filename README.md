@@ -98,7 +98,7 @@ Exécutez le script Python à l'aide de la commande suivante :
 bash
 Copier
 Modifier
-python firewall_personal.py
+python script.py
 Fonctionnalités principales :
 Afficher les connexions réseau actives :
 
